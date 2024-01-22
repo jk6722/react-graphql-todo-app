@@ -1,7 +1,7 @@
 export interface IList {
   text: string;
   checked: boolean;
-  id: number;
+  id: string;
   __typename?: string;
 }
 

@@ -12,7 +12,7 @@ import { FiEdit, FiMinusCircle } from "react-icons/fi";
 
 interface TodoItemProps {
   todo: IList;
-  handleRemove: (options: { variables: { id: number } }) => void;
+  handleRemove: (options: { variables: { id: string } }) => void;
   handleUpdate: (options: { variables: IList }) => void;
 }
 
